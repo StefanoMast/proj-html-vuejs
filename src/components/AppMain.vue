@@ -1,61 +1,44 @@
 <template>
   <main>
       <div class="main">
-          <div class="main-card">
-              <img src="../assets/img/h-2-port-img-1.jpg" alt="">
-              <!-- <img src="../assets/img/h-2-port-img-2.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-3.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-4.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-5.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-6.jpg" alt=""> -->
-          </div>
-          <div class="main-card">
-              <img src="../assets/img/h-2-port-img-2.jpg" alt="">
-              <!-- <img src="../assets/img/h-2-port-img-2.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-3.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-4.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-5.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-6.jpg" alt=""> -->
-          </div>
-          <div class="main-card">
-              <img src="../assets/img/h-2-port-img-3.jpg" alt="">
-              <!-- <img src="../assets/img/h-2-port-img-2.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-3.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-4.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-5.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-6.jpg" alt=""> -->
-          </div>
-          <div class="main-card">
-              <img src="../assets/img/h-2-port-img-4.jpg" alt="">
-              <!-- <img src="../assets/img/h-2-port-img-2.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-3.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-4.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-5.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-6.jpg" alt=""> -->
-          </div>
-          <div class="main-card">
-              <img src="../assets/img/h-2-port-img-5.jpg" alt="">
-              <!-- <img src="../assets/img/h-2-port-img-2.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-3.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-4.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-5.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-6.jpg" alt=""> -->
-          </div>
-          <div class="main-card">
-              <img src="../assets/img/h-2-port-img-6.jpg" alt="">
-              <!-- <img src="../assets/img/h-2-port-img-2.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-3.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-4.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-5.jpg" alt="">
-              <img src="../assets/img/h-2-port-img-6.jpg" alt=""> -->
-          </div>
+          <AppCard
+          v-for="(item, index) in cards"
+          :key="index"
+          :cardObj="item"/>
       </div>
   </main>
 </template>
 
 <script>
+import AppCard from './AppCard.vue';
 export default {
-
+    name: "CardList",
+    components: { AppCard },
+    data: function () {
+        return {
+            cards: [
+                {
+                    img: "../assets/img/h-2-port-img-1.jpg"
+                },
+                {
+                    img: "../assets/img/h-2-port-img-2.jpg"
+                },
+                {
+                    img: "../assets/img/h-2-port-img-3.jpg"
+                },
+                {
+                    img: "../assets/img/h-2-port-img-4.jpg"
+                },
+                {
+                    img: "../assets/img/h-2-port-img-5.jpg"
+                },
+                {
+                    img: "../assets/img/h-2-port-img-6.jpg"
+                }
+                
+            ]
+        }
+    }
 }
 </script>
 
@@ -64,14 +47,6 @@ export default {
 .main {
     display: flex;
     flex-wrap: wrap;
-}
-
-.main-card {
-    width: calc(100%/3);
-}
-
-.main-card img {
-    width: 100%;
 }
 
 </style>
