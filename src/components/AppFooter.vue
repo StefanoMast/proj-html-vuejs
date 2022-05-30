@@ -1,7 +1,11 @@
 <template>
   <footer>
       <div class="footer">
-          ciao
+          <h2> Working Process</h2>
+          <div class="footer-container">
+              <img src="../assets/svg/svg-3.svg" alt="">
+          </div>
+          
       </div>
   </footer>
 </template>
@@ -15,8 +19,17 @@ export default {
 <style scoped>
 
 .footer {
-    background-color: brown;
-    height: 200px;
+    width: 50%;
+    margin: auto;
 }
+
+.footer h2 {
+    text-align: center;
+}
+
+.footer-container img {
+    width: 100%;
+}
+
 
 </style>
