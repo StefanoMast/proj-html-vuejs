@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <img :src="require('cardObj.src')" alt="">
+    <img src="../assets/img/h-2-port-img-1.jpg" alt="">
   </div>
 </template>
 
