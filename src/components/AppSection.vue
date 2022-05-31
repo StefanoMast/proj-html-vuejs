@@ -1,11 +1,21 @@
 <template>
   <footer>
       <div class="footer">
-          <h2> Working Process</h2>
+          <h2> Working <span>Process</span></h2>
           <div class="footer-container">
               <div class="footer-card">
                   <div class="footer-circle-card">
-                      <img src="../assets/svg/svg-0.svg" alt="">
+                      <div class="font-aw">
+                          <i class="fa-solid fa-lightbulb"></i>
+                      </div>
+                      
+                  </div>
+                  <h4>First there is an idea</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+              <div class="footer-card">
+                  <div class="footer-circle-card">
+                      <i class="fa-solid fa-comment"></i>
                   </div>
                   <h4>First there is an idea</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -13,7 +23,7 @@
               </div>
               <div class="footer-card">
                   <div class="footer-circle-card">
-                      <img src="../assets/svg/svg-0.svg" alt="">
+                      <i class="fas fa-cloud"></i>
                   </div>
                   <h4>First there is an idea</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -21,15 +31,7 @@
               </div>
               <div class="footer-card">
                   <div class="footer-circle-card">
-                      <img src="../assets/svg/svg-0.svg" alt="">
-                  </div>
-                  <h4>First there is an idea</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  
-              </div>
-              <div class="footer-card">
-                  <div class="footer-circle-card">
-                      <img src="../assets/svg/svg-0.svg" alt="">
+                      <i class="fas fa-pencil-alt"></i>
                   </div>
                   <h4>First there is an idea</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -61,15 +63,15 @@ export default {
 
 .footer-container {
     padding-bottom: 3rem;
-    margin: auto;
+    width: 80%;
     background-image: url(../assets/svg/svg-3.svg);
     background-repeat: no-repeat;
+    margin: auto;
     display: flex;
 }
 
 .footer-card {
     width: calc(100%/4);
-    border: 1px solid black;
     margin-bottom: 1rem;
 }
 
@@ -81,9 +83,19 @@ export default {
 .footer-circle-card {
     width: 100px;
     height: 100px;
-    background-color: bisque;
+    background-image: url(../assets/img/rbt-placeholder.jpg);
     border-radius: 100%;
     margin: 2rem auto;
+    position: relative;
+}
+
+.footer-circle-card i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #C0E1CF;
+    font-size: 2rem;
 }
 
 

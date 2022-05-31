@@ -1,6 +1,6 @@
 <template>
   <div class="contact-us">
-      <h1>Want to work with us? Send us a message</h1>
+      <h1>Want to work with us? Send us a <span> message</span></h1>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quod non ab doloremque ad vero repellat, a cumque aliquid itaque maiores maxime quam quisquam, minus, enim in! Aspernatur, saepe ea!</p>
       <button>Contact us</button>
   </div>
