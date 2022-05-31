@@ -19,8 +19,12 @@
 
          <div class="header-container">
             <div class="header-container-first">
-                <h1>Devotion that never <span>ends</span></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam molestias accusamus, dolorem deleniti sit maiores non doloremque, repudiandae distinctio laborum numquam voluptatum quisquam repellendus officiis labore amet in aspernatur quae!</p>
+                <div class="header-content">
+                    <h1>Devotion that never <span>ends</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam molestias accusamus, dolorem deleniti sit maiores non doloremque, repudiandae distinctio laborum numquam voluptatum quisquam repellendus officiis labore amet in aspernatur quae!</p>
+                    <button>READ MORE</button>
+                </div>
+                
             </div>
             <div class="header-container-second">
                 <img src="../assets/img/h-2-slider-img-15.png" alt="">
@@ -62,10 +66,11 @@ export default {
 
 .header-nav {
     width: 100%;
-    height: 30px;
+    height: 50px;
   
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-nav li {
@@ -84,6 +89,23 @@ export default {
 .header-container-first {
     width: 50%;
     text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    width: 60%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin-top: 1.5rem;
 }
 .header-container-second {
     display: flex;
@@ -125,6 +147,18 @@ export default {
     position: absolute;
     bottom: 7%;
     right: -13%;
+}
+
+li {
+    margin-right: 1rem;
+}
+
+li:hover {
+    border-bottom: 3px solid #F0817B;
+}
+
+a {
+    text-decoration: none;
 }
 
 
