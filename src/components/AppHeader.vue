@@ -3,7 +3,7 @@
       <div class="header">
           <div class="header-nav">
               <div class="header-nav-logo">
-                  <img src="../assets/img/logo-sidearea-1.png" alt="">
+                  <img src="../assets/img/logo-sidearea-1-1.png" alt="">
               </div>
               <div class="header-nav-menu">
                 <ul>
