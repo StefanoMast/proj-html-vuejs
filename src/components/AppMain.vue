@@ -12,31 +12,37 @@
 <script>
 import AppCard from './AppCard.vue';
 export default {
-    name: "CardList",
+    name: "AppMain",
     components: { AppCard },
     data: function () {
         return {
             cards: [
                 {
-                    img: "../assets/img/h-2-port-img-1.jpg"
+                    
+                    img:"h-2-port-img-1.jpg",
+                    name: "img1"
                 },
                 {
-                    img: "../assets/img/h-2-port-img-2.jpg"
+                   img: "h-2-port-img-2.jpg",
+                   name: "img2"
                 },
                 {
-                    img: "../assets/img/h-2-port-img-3.jpg"
+                    img: "h-2-port-img-3.jpg",
+                    name: "img3"
                 },
                 {
-                    img: "../assets/img/h-2-port-img-4.jpg"
+                    img: "h-2-port-img-4.jpg",
+                    name: "img4"
                 },
                 {
-                    img: "../assets/img/h-2-port-img-5.jpg"
+                    img: "h-2-port-img-5.jpg",
+                    name: "img5"
                 },
                 {
-                    img: "../assets/img/h-2-port-img-6.jpg"
+                    img: "h-2-port-img-6.jpg",
+                    name: "img6"
                 }
-                
-            ]
+            ]  
         }
     }
 }

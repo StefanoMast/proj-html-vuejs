@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <img src="../assets/img/h-2-port-img-1.jpg" alt="">
+    <img :src="require(`../assets/img/${cardObj.img}`)" alt="">
   </div>
 </template>
 
@@ -10,7 +10,7 @@ export default {
     props: {
         cardObj: Object
     },
-
+    
 }
 </script>
 

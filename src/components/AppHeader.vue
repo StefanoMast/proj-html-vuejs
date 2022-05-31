@@ -19,10 +19,11 @@
 
          <div class="header-container">
             <div class="header-container-first">
-                ciao
+                <h1>Devotion that never ends</h1>
             </div>
             <div class="header-container-second">
-                buongiorno
+                <img src="../assets/img/h-2-slider-img-15.png" alt="">
+                <img src="../assets/img/h-2-slider-img-16.png" alt="">
             </div>
          </div>
       </div>
@@ -56,13 +57,17 @@ export default {
 }
 
 .header-container {
-    height: 200px;
-    background-color: blueviolet;
     display: flex;
 }
 .header-container-first {
     width: 50%;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container-second {
+    display: flex;
+    padding: 2rem 0;
 }
 
 </style>
