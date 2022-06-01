@@ -59,6 +59,7 @@ export default {
 .footer h2 {
     text-align: center;
     margin: 3rem 0;
+    font-size: 3rem;
 }
 
 .footer-container {
@@ -97,6 +98,7 @@ export default {
     color: #C0E1CF;
     font-size: 2rem;
 }
+
 
 
 </style>

@@ -5,7 +5,7 @@
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quod non ab doloremque ad vero repellat, a cumque aliquid itaque maiores maxime quam quisquam, minus, enim in! Aspernatur, saepe ea!</p>
       </div>
       <div class="contact-btn">
-          <button>CONTACT US</button>
+          <button>CONTACT</button>
       </div>
       <div class="contact-image-first">
           <img src="../assets/img/short-slider-rev-1-img-6.png" alt="">
@@ -60,6 +60,13 @@ h1 {
 button {
     width: 250px;
     height: 50px;
+    background-color: #D8F0E3;
+    border: 2px solid #C0E1CF;
+}
+
+button:hover {
+    color: #C0E1CF;
+    background-color: #FAF7F1;
 }
 
 .contact-btn {

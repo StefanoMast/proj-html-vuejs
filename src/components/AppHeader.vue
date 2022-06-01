@@ -83,6 +83,10 @@ export default {
     justify-content: flex-end;
 }
 
+.header-nav-menu img {
+    margin: 0 2rem;
+}
+
 .header-container {
     display: flex;
 }
@@ -103,9 +107,15 @@ h1 {
 }
 
 button {
-    width: 150px;
+    width: 250px;
     height: 50px;
     margin-top: 1.5rem;
+    border: 2px solid #E1C0B0;
+}
+
+button:hover {
+    color: white;
+    background-color: #E1C0B0;
 }
 .header-container-second {
     display: flex;
