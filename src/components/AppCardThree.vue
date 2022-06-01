@@ -1,17 +1,18 @@
 <template>
   <div class="card-section">
-      <img :src="require(`../assets/img/${cardObj.img}`)" alt="">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, enim deserunt facere excepturi eos nulla ratione deleniti minus omnis ducimus odio voluptatum maxime, commodi itaque adipisci modi quis, sequi optio?</p>
-      <small>descrizio immagine</small>
-      <div class="card-date">
-          <div class="card-day">
-              <span>07</span>
-          </div>
-          <div class="card-month">
-              JUN '22
-          </div>
-      </div>
-  </div>
+        <img :src="require(`../assets/img/${cardObj.img}`)" alt="">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, enim deserunt facere excepturi eos nulla ratione deleniti minus omnis ducimus odio voluptatum maxime, commodi itaque adipisci modi quis, sequi optio?</p>
+        <small>descrizio immagine</small>
+        <div class="card-date">
+            <div class="card-day">
+                <span>07</span>
+            </div>
+            <div class="card-month">
+                JUN '22
+            </div>
+        </div>
+    </div>
+
 </template>
 
 <script>
@@ -24,6 +25,7 @@ export default {
 </script>
 
 <style scoped>
+
 .card-section {
     width: calc(100%/3 - 10px);
     margin: 6rem 5px;

@@ -1,6 +1,8 @@
 <template>
   <header>
       <div class="header">
+          <div class="header-arrow-right"><img src="../assets/svg/svg-5.svg" alt=""></div>
+          <div class="header-arrow-left"><img src="../assets/svg/svg-5.svg" alt=""></div>
           <div class="header-nav">
               <div class="header-nav-logo">
                   <img src="../assets/img/logo-sidearea-1-1.png" alt="">
@@ -63,6 +65,32 @@ export default {
 </script>
 
 <style scoped>
+
+.header {
+    position: relative;
+}
+.header-arrow-right {
+    width: 38px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: #F0817B;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+}
+
+.header-arrow-left {
+    width: 38px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: #F0817B;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: rotate(180deg);
+}
 
 .header-nav {
     width: 100%;
@@ -169,6 +197,7 @@ li:hover {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 
