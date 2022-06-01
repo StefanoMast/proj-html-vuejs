@@ -86,7 +86,7 @@ export default {
 .section-card {
     width: calc(100%/4);
     margin-bottom: 1rem;
-}
+} 
 
 .section-circle-card img {
     width: 100%;
