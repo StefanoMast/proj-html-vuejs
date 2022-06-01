@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style>
-@import "./assets/common.sass";
+@import "./assets/common.scss";
 
 
 </style>

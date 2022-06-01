@@ -1,0 +1,19 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+@import "@fontsource/aileron";
+
+@import "@fontsource/abril-fatface";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: aileron, sans-serif;
+}
+
+span {
+    font-family: "Abril Fatface", cursive;
+}

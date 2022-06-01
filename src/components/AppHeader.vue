@@ -9,11 +9,11 @@
               </div>
               <div class="header-nav-menu">
                 <ul>
-                  <li><a href="">HOME </a></li>
-                  <li><a href="">PAGES </a></li>
-                  <li><a href="">ELEMENT </a></li>
-                  <li><a href="">PORTFOLIO </a></li>
-                  <li><a href="">IMAGES</a></li>
+                  <li
+                v-for="(item, index) in links"
+                :key="index">
+                <a href="">{{ item.text }}</a>
+                </li>
                 </ul>
                 <img src="../assets/svg/svg-1.svg" alt="">
               </div>
@@ -60,7 +60,38 @@
 
 <script>
 export default {
+    name: "AppHeader",
+    data() {
+        return {
+        links: [
+            {
+            url: "#",
+            text: "HOME",
 
+        },
+        {
+            url: "#",
+            text: "PAGES"
+        },
+        {
+            url: "#",
+            text: "PORTFOLIO"
+        },
+        {
+            url: "#",
+            text: "BLOG"
+        },
+        {
+            url: "#",
+            text: "SHOP"
+        },
+        {
+            url: "#",
+            text: "ELEMENTS"
+        }
+        ]
+    }
+    }
 }
 </script>
 

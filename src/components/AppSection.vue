@@ -4,18 +4,17 @@
           <div class="section-arrow"><img src="../assets/svg/svg-2.svg" alt=""></div>
           <h2> Working <span>Process</span></h2>
           <div class="section-container">
+            <div class="section-background">
               <div class="section-card">
-                  <div class="section-circle-card">
-                      <div class="font-aw">
-                          <i class="fa-solid fa-lightbulb"></i>
-                      </div>
-                      
+                  <div class="section-circle-card" id="green">
+                     <i class="fa-solid fa-lightbulb"></i>
                   </div>
+                
                   <h4>First there is an idea</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
               <div class="section-card">
-                  <div class="section-circle-card">
+                  <div class="section-circle-card" id="yellow">
                       <i class="fa-solid fa-comment"></i>
                   </div>
                   <h4>First there is an idea</h4>
@@ -23,7 +22,7 @@
                   
               </div>
               <div class="section-card">
-                  <div class="section-circle-card">
+                  <div class="section-circle-card" id="red">
                       <i class="fas fa-cloud"></i>
                   </div>
                   <h4>First there is an idea</h4>
@@ -31,14 +30,14 @@
                   
               </div>
               <div class="section-card">
-                  <div class="section-circle-card">
+                  <div class="section-circle-card" id="pink">
                       <i class="fas fa-pencil-alt"></i>
                   </div>
                   <h4>First there is an idea</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   
               </div>
-
+            </div>
           </div>
           
       </div>
@@ -77,15 +76,20 @@ export default {
 .section-container {
     padding-bottom: 3rem;
     width: 60%;
+    margin: 0 auto;
+    
+}
+
+.section-background {
     background-image: url(../assets/svg/svg-3.svg);
+    background-size: 100%;
     background-repeat: no-repeat;
-    margin: auto;
     display: flex;
 }
 
 .section-card {
     width: calc(100%/4);
-    margin-bottom: 1rem;
+    margin: 15px;
 } 
 
 .section-circle-card img {
@@ -107,8 +111,27 @@ export default {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #C0E1CF;
     font-size: 2rem;
+}
+
+#green {
+    color: #C0E1CF;
+}
+
+#yellow {
+    color: #F8D12D;
+}
+
+#red {
+    color: #80465F;
+}
+
+#pink {
+    color: #EE2852;
+}
+
+h4 {
+    margin-bottom: 5px;
 }
 
 

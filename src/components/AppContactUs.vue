@@ -1,7 +1,7 @@
 <template>
   <div class="contact-us">
       <div class="contact-content">
-          <h1>Want to work with us? Send us a <span> message </span></h1>
+          <h2>Want to work with us? Send us  <span> a message</span></h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quod non ab doloremque ad vero repellat, a cumque aliquid itaque maiores maxime quam quisquam, minus, enim in! Aspernatur, saepe ea!</p>
       </div>
       <div class="contact-btn">
@@ -46,14 +46,14 @@ export default {
     margin: auto;
 }
 
-h1, p {
+h2, p {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1rem;
 }
 
-h1 {
+h2 {
     font-size: 3rem;
 }
 

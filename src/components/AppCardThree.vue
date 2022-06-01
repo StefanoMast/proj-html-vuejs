@@ -34,6 +34,7 @@ export default {
 
 .card-section img {
     width: 100%;
+    margin-bottom: 2rem;
 }
 
 .card-date {
@@ -58,6 +59,10 @@ export default {
     padding: 2px;
     background-color: #F4D0C7;
     clip-path: polygon( 100% 0, 100% 100%, 50% 50%, 0 100%, 0 0);
+}
+
+p {
+    margin-bottom: 1rem;
 }
 
 </style>

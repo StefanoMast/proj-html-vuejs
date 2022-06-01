@@ -5,14 +5,19 @@
             <img src="../assets/img/logo-sidearea-1.png" alt="">
             <p>Let's Get Creative</p>
           </div>
-          <div class="footer-contacts">
-              <p>maree.qode@gmail.com</p>
-              <p>+44645 321 789</p>
+          <div
+          v-for="(item, index) in contacts"
+          :key="index" 
+          class="footer-contacts">
+              <!-- <p>maree.qode@gmail.com</p>
+              <p>+44645 321 789</p> -->
+              {{item.text}} 
+              {{item.number}}
           </div>
-          <div class="footer-address">
+          <!-- <div class="footer-address">
               <p>Avenue d'Auderghem 10</p>
               <p>1040 Brussels, Belgium</p>
-          </div>
+          </div> -->
           <div class="footer-socials">
               <p>Stay in touch with us</p>
               <div class="footer-socials-icons">
@@ -28,6 +33,24 @@
 
 <script>
 export default {
+    name: "AppFooter",
+    data() {
+        return {
+            contacts: [
+                {
+                    url: "#",
+                    text: "maree.qode@gmail.com",
+                    number: "+44645 321 789"
+                },
+                {
+                    url: "#",
+                    text: "Avenue d'Auderghem 10",
+                    number: "1040 Brussels, Belgium"
+                },
+
+            ]
+        }
+    }
 
 }
 </script>
