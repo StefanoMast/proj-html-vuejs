@@ -186,37 +186,41 @@ button:hover {
     position: relative;
 }
 
-.small-image {
+.small-image,
+.small-image-second,
+.small-image-third,
+.small-image-fourth,
+.small-image-fifth,
+.small-image-sixth {
     position: absolute;
+    
+}
+
+.small-image {
     left: 5%;
     top: -5%;
 }
 
 .small-image-second {
-    position: absolute;
     top: 50%;
     left: -10%;
 }
 
 .small-image-third {
-    position: absolute;
     bottom: 7%;
 }
 
 .small-image-fourth {
-    position: absolute;
     right: 5%;
     top: -6%;
 }
 
 .small-image-fifth {
-    position: absolute;
     top: 20%;
     right: -4%;
 }
 
 .small-image-sixth {
-    position: absolute;
     bottom: 7%;
     right: -13%;
 }

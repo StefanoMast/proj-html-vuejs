@@ -19,7 +19,8 @@
 export default {
     name: "AppCardThree",
     props: {
-        cardObj: Object
+        cardObj: Object,
+
     },
 }
 </script>
@@ -65,7 +66,7 @@ h4 {
     margin-bottom: 1rem;
 }
 
- small {
+small {
      font-family: abril fatface;
      font-weight: lighter;
      font-style: italic;

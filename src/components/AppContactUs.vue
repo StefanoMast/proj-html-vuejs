@@ -81,15 +81,24 @@ button:hover {
     text-align: center;
     padding-bottom: 5rem;
 }
-.contact-image-first {
+.contact-image-first,
+.contact-image-second,
+.contact-image-third,
+.contact-image-fourth,
+.contact-image-fifth,
+.contact-image-sixth,
+.contact-image-seventh,
+.contact-image-eighth {
     position: absolute;
+}
+
+.contact-image-first {
     bottom: 0;
     left: 14%;
 }
 
 .contact-image-second {
     background-color: #D8F0E3;
-    position: absolute;
     transform: rotate(180deg);
     right: 10%;
     top: 0;
@@ -99,7 +108,6 @@ button:hover {
 }
 
 .contact-image-third {
-    position: absolute;
     background-color: #C0E1CF;
     right: 0;
     top: 0;
@@ -110,7 +118,6 @@ button:hover {
 }
 
 .contact-image-fourth {
-    position: absolute;
     width: 20%;
     height: 400px;
     left: 0;
@@ -119,21 +126,21 @@ button:hover {
     background-color: #C0E1CF;
 }
 
-.contact-image-fifth {
-    position: absolute;
+.contact-image-fifth,
+.contact-image-sixth,
+.contact-image-seventh {
+    /* position: absolute; */
     width: 10%;
     height: 400px;
-    left: 15%;
+}
+   
+.contact-image-fifth  {left: 15%;
     top: 0%;
     clip-path: circle(55% at 50% 135% );
     background-color: #cbe8c4;
-    transform: rotate(180deg);
-}
+    transform: rotate(180deg);}
 
 .contact-image-sixth {
-    position: absolute;
-    width: 10%;
-    height: 400px;
     left: 23%;
     bottom: 0%;
     clip-path: circle(50% at 50% 135% );
@@ -141,9 +148,6 @@ button:hover {
 }
 
 .contact-image-seventh {
-    position: absolute;
-    width: 10%;
-    height: 400px;
     right: 0;
     bottom: 0%;
     clip-path: circle(50% at 55% 130% );
@@ -151,7 +155,6 @@ button:hover {
 }
 
 .contact-image-eighth {
-    position: absolute;
     top: 10%;
     right: 12%;
 }
