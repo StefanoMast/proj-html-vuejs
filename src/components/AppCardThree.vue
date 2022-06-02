@@ -1,8 +1,8 @@
 <template>
   <div class="card-section">
         <img :src="require(`../assets/img/${cardObj.img}`)" alt="">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, enim deserunt facere excepturi eos nulla ratione deleniti minus omnis ducimus odio voluptatum maxime, commodi itaque adipisci modi quis, sequi optio?</p>
-        <small>descrizio immagine</small>
+        <h4>This way loves: a detailed guide through a new design</h4>
+        <small>by Emily Field</small>
         <div class="card-date">
             <div class="card-day">
                 <span>07</span>
@@ -61,8 +61,14 @@ export default {
     clip-path: polygon( 100% 0, 100% 100%, 50% 50%, 0 100%, 0 0);
 }
 
-p {
+h4 {
     margin-bottom: 1rem;
 }
+
+ small {
+     font-family: abril fatface;
+     font-weight: lighter;
+     font-style: italic;
+ }
 
 </style>

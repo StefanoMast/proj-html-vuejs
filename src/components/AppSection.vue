@@ -17,7 +17,7 @@
                   <div class="section-circle-card" id="yellow">
                       <i class="fa-solid fa-comment"></i>
                   </div>
-                  <h4>First there is an idea</h4>
+                  <h4>Then we talk about</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   
               </div>
@@ -25,7 +25,7 @@
                   <div class="section-circle-card" id="red">
                       <i class="fas fa-cloud"></i>
                   </div>
-                  <h4>First there is an idea</h4>
+                  <h4>And we think about</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   
               </div>
@@ -33,7 +33,7 @@
                   <div class="section-circle-card" id="pink">
                       <i class="fas fa-pencil-alt"></i>
                   </div>
-                  <h4>First there is an idea</h4>
+                  <h4>So we draw along</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   
               </div>
@@ -131,7 +131,12 @@ export default {
 }
 
 h4 {
-    margin-bottom: 5px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 

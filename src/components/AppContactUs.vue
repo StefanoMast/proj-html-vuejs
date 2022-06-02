@@ -1,8 +1,8 @@
 <template>
   <div class="contact-us">
       <div class="contact-content">
-          <h2>Want to work with us? Send us  <span> a message</span></h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quod non ab doloremque ad vero repellat, a cumque aliquid itaque maiores maxime quam quisquam, minus, enim in! Aspernatur, saepe ea!</p>
+          <h2>Want to work with us? Send us<span> a message</span></h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quod non ab doloremque ad vero repellat, a cumque aliquid itaque maiores maxime quam quisquam, minus, enim in! Aspernatur, saepe ea!</p>
       </div>
       <div class="contact-btn">
           <button>CONTACT</button>
@@ -55,6 +55,14 @@ h2, p {
 
 h2 {
     font-size: 3rem;
+}
+
+span {
+    margin: 0 0 5px 5px;
+}
+
+p {
+    text-align: center;
 }
 
 button {

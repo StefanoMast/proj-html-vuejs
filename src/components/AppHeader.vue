@@ -23,7 +23,7 @@
             <div class="header-container-first">
                 <div class="header-content">
                     <h1>Devotion that never <span>ends</span></h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam molestias accusamus, dolorem deleniti sit maiores non doloremque, repudiandae distinctio laborum numquam voluptatum quisquam repellendus officiis labore amet in aspernatur quae!</p>
+                    <p>Neque porro quisquam est, qui dolorem ispum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi</p>
                     <button>READ MORE</button>
                 </div>
                 
@@ -151,18 +151,21 @@ export default {
 }
 .header-container-first {
     width: 50%;
-    text-align: center;
     display: flex;
     align-items: center;
 }
 
 .header-content {
-    width: 60%;
+    width: 50%;
     margin: auto;
 }
 
 h1 {
     font-size: 4rem;
+}
+
+p {
+    text-align: start;
 }
 
 button {
@@ -220,6 +223,7 @@ button:hover {
 
 li {
     margin-right: 1rem;
+    font-weight: bold;
 }
 
 li:hover {
